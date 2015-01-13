@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TrackTableViewCell" rowHeight="56" id="KGk-i7-Jjw" customClass="TrackTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Track Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y5m-SR-BRb">
+                        <rect key="frame" x="61" y="17" width="251" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PFf-kv-dDk">
+                        <rect key="frame" x="8" y="5" width="45" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="45" id="QgV-IH-tjM"/>
+                            <constraint firstAttribute="height" constant="45" id="iR7-CB-4nM"/>
+                        </constraints>
+                    </imageView>
+                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="nLt-f0-1Gr">
+                        <rect key="frame" x="20" y="18" width="20" height="20"/>
+                    </activityIndicatorView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="centerY" secondItem="y5m-SR-BRb" secondAttribute="centerY" id="C2M-83-IEx"/>
+                    <constraint firstAttribute="centerY" secondItem="nLt-f0-1Gr" secondAttribute="centerY" id="G2i-Ir-g2M"/>
+                    <constraint firstAttribute="centerY" secondItem="PFf-kv-dDk" secondAttribute="centerY" id="K8H-fN-v6H"/>
+                    <constraint firstItem="y5m-SR-BRb" firstAttribute="leading" secondItem="PFf-kv-dDk" secondAttribute="trailing" constant="8" id="Vcj-9k-320"/>
+                    <constraint firstItem="y5m-SR-BRb" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="Xh3-kQ-i3P"/>
+                    <constraint firstItem="nLt-f0-1Gr" firstAttribute="centerX" secondItem="PFf-kv-dDk" secondAttribute="centerX" constant="-0.5" id="lXv-se-jdh"/>
+                    <constraint firstItem="nLt-f0-1Gr" firstAttribute="centerY" secondItem="PFf-kv-dDk" secondAttribute="centerY" constant="0.5" id="sgu-YC-VAj"/>
+                    <constraint firstItem="PFf-kv-dDk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="xYr-db-BP6"/>
+                    <constraint firstAttribute="centerX" secondItem="nLt-f0-1Gr" secondAttribute="centerX" id="y0t-Pa-jG1"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="G2i-Ir-g2M"/>
+                        <exclude reference="y0t-Pa-jG1"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="spinner" destination="nLt-f0-1Gr" id="kja-2B-L3S"/>
+                <outlet property="trackImageView" destination="PFf-kv-dDk" id="Wdo-gR-kfl"/>
+                <outlet property="trackTitleLabel" destination="y5m-SR-BRb" id="ojC-Sk-yZf"/>
+            </connections>
+            <point key="canvasLocation" x="592" y="459"/>
+        </tableViewCell>
+    </objects>
+</document>

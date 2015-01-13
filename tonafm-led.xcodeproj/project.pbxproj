@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8842011F50883A140C803CEB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B03A443532833E594763BE7D /* libPods.a */; };
+		CC67B2BC1A61AFAC004B1F7E /* TrackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC67B2BA1A61AFAC004B1F7E /* TrackTableViewCell.m */; };
+		CC67B2BD1A61AFAC004B1F7E /* TrackTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC67B2BB1A61AFAC004B1F7E /* TrackTableViewCell.xib */; };
+		CC67B2C31A61DC94004B1F7E /* UtilityAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = CC67B2C21A61DC94004B1F7E /* UtilityAPI.m */; };
+		CCA68F131A605F2C00B4F211 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA68F121A605F2C00B4F211 /* AVFoundation.framework */; };
+		CCEA30A51A604E2A00A9E771 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEA30A41A604E2A00A9E771 /* main.m */; };
+		CCEA30A81A604E2A00A9E771 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEA30A71A604E2A00A9E771 /* AppDelegate.m */; };
+		CCEA30AB1A604E2A00A9E771 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEA30AA1A604E2A00A9E771 /* PlayerViewController.m */; };
+		CCEA30AE1A604E2A00A9E771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCEA30AC1A604E2A00A9E771 /* Main.storyboard */; };
+		CCEA30B01A604E2A00A9E771 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCEA30AF1A604E2A00A9E771 /* Images.xcassets */; };
+		CCEA30B31A604E2A00A9E771 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCEA30B11A604E2A00A9E771 /* LaunchScreen.xib */; };
+		CCEA30BF1A604E2A00A9E771 /* tonafm_ledTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEA30BE1A604E2A00A9E771 /* tonafm_ledTests.m */; };
+		CCEA30C91A604F9D00A9E771 /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEA30C81A604F9D00A9E771 /* Spotify.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCEA30B91A604E2A00A9E771 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCEA30971A604E2A00A9E771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCEA309E1A604E2A00A9E771;
+			remoteInfo = "tonafm-led";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BBC1BABF8C0A010323C5D80 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B03A443532833E594763BE7D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC67B2B91A61AFAC004B1F7E /* TrackTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackTableViewCell.h; sourceTree = "<group>"; };
+		CC67B2BA1A61AFAC004B1F7E /* TrackTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackTableViewCell.m; sourceTree = "<group>"; };
+		CC67B2BB1A61AFAC004B1F7E /* TrackTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrackTableViewCell.xib; sourceTree = "<group>"; };
+		CC67B2C11A61DC94004B1F7E /* UtilityAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityAPI.h; sourceTree = "<group>"; };
+		CC67B2C21A61DC94004B1F7E /* UtilityAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityAPI.m; sourceTree = "<group>"; };
+		CCA68F121A605F2C00B4F211 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CCA92D221A6168F000DE0D58 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		CCEA309F1A604E2A00A9E771 /* tonafm-led.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tonafm-led.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEA30A31A604E2A00A9E771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCEA30A41A604E2A00A9E771 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCEA30A61A604E2A00A9E771 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCEA30A71A604E2A00A9E771 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCEA30A91A604E2A00A9E771 /* PlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		CCEA30AA1A604E2A00A9E771 /* PlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		CCEA30AD1A604E2A00A9E771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCEA30AF1A604E2A00A9E771 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCEA30B21A604E2A00A9E771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CCEA30B81A604E2A00A9E771 /* tonafm-ledTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tonafm-ledTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEA30BD1A604E2A00A9E771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCEA30BE1A604E2A00A9E771 /* tonafm_ledTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tonafm_ledTests.m; sourceTree = "<group>"; };
+		CCEA30C81A604F9D00A9E771 /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
+		D61FEA2B19BD337A74D4B79B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCEA309C1A604E2A00A9E771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA68F131A605F2C00B4F211 /* AVFoundation.framework in Frameworks */,
+				CCEA30C91A604F9D00A9E771 /* Spotify.framework in Frameworks */,
+				8842011F50883A140C803CEB /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEA30B51A604E2A00A9E771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20D61F04163A3F2A70A31EE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D61FEA2B19BD337A74D4B79B /* Pods.debug.xcconfig */,
+				3BBC1BABF8C0A010323C5D80 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC67B2BE1A61AFB1004B1F7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC67B2B91A61AFAC004B1F7E /* TrackTableViewCell.h */,
+				CC67B2BA1A61AFAC004B1F7E /* TrackTableViewCell.m */,
+				CC67B2BB1A61AFAC004B1F7E /* TrackTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CC67B2C41A61DC98004B1F7E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CC67B2C11A61DC94004B1F7E /* UtilityAPI.h */,
+				CC67B2C21A61DC94004B1F7E /* UtilityAPI.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		CCEA30961A604E2A00A9E771 = {
+			isa = PBXGroup;
+			children = (
+				CCEA30A11A604E2A00A9E771 /* tonafm-led */,
+				CCEA30BB1A604E2A00A9E771 /* tonafm-ledTests */,
+				CCEA30A01A604E2A00A9E771 /* Products */,
+				FDAFE9B0030D845ACB846105 /* Frameworks */,
+				20D61F04163A3F2A70A31EE3 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		CCEA30A01A604E2A00A9E771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCEA309F1A604E2A00A9E771 /* tonafm-led.app */,
+				CCEA30B81A604E2A00A9E771 /* tonafm-ledTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCEA30A11A604E2A00A9E771 /* tonafm-led */ = {
+			isa = PBXGroup;
+			children = (
+				CCA92D221A6168F000DE0D58 /* Config.h */,
+				CCEA30A61A604E2A00A9E771 /* AppDelegate.h */,
+				CCEA30A71A604E2A00A9E771 /* AppDelegate.m */,
+				CCEA30A91A604E2A00A9E771 /* PlayerViewController.h */,
+				CCEA30AA1A604E2A00A9E771 /* PlayerViewController.m */,
+				CC67B2C41A61DC98004B1F7E /* API */,
+				CCEA30AC1A604E2A00A9E771 /* Main.storyboard */,
+				CC67B2BE1A61AFB1004B1F7E /* View */,
+				CCEA30AF1A604E2A00A9E771 /* Images.xcassets */,
+				CCEA30B11A604E2A00A9E771 /* LaunchScreen.xib */,
+				CCEA30CA1A604FA100A9E771 /* Frameworks */,
+				CCEA30A21A604E2A00A9E771 /* Supporting Files */,
+			);
+			path = "tonafm-led";
+			sourceTree = "<group>";
+		};
+		CCEA30A21A604E2A00A9E771 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCEA30A31A604E2A00A9E771 /* Info.plist */,
+				CCEA30A41A604E2A00A9E771 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCEA30BB1A604E2A00A9E771 /* tonafm-ledTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCEA30BE1A604E2A00A9E771 /* tonafm_ledTests.m */,
+				CCEA30BC1A604E2A00A9E771 /* Supporting Files */,
+			);
+			path = "tonafm-ledTests";
+			sourceTree = "<group>";
+		};
+		CCEA30BC1A604E2A00A9E771 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCEA30BD1A604E2A00A9E771 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCEA30CA1A604FA100A9E771 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCA68F121A605F2C00B4F211 /* AVFoundation.framework */,
+				CCEA30C81A604F9D00A9E771 /* Spotify.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDAFE9B0030D845ACB846105 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B03A443532833E594763BE7D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCEA309E1A604E2A00A9E771 /* tonafm-led */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEA30C21A604E2A00A9E771 /* Build configuration list for PBXNativeTarget "tonafm-led" */;
+			buildPhases = (
+				BCC6F96D77D6C5830195EA6C /* Check Pods Manifest.lock */,
+				CCEA309B1A604E2A00A9E771 /* Sources */,
+				CCEA309C1A604E2A00A9E771 /* Frameworks */,
+				CCEA309D1A604E2A00A9E771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tonafm-led";
+			productName = "tonafm-led";
+			productReference = CCEA309F1A604E2A00A9E771 /* tonafm-led.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCEA30B71A604E2A00A9E771 /* tonafm-ledTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEA30C51A604E2A00A9E771 /* Build configuration list for PBXNativeTarget "tonafm-ledTests" */;
+			buildPhases = (
+				CCEA30B41A604E2A00A9E771 /* Sources */,
+				CCEA30B51A604E2A00A9E771 /* Frameworks */,
+				CCEA30B61A604E2A00A9E771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCEA30BA1A604E2A00A9E771 /* PBXTargetDependency */,
+			);
+			name = "tonafm-ledTests";
+			productName = "tonafm-ledTests";
+			productReference = CCEA30B81A604E2A00A9E771 /* tonafm-ledTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCEA30971A604E2A00A9E771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "sensory media";
+				TargetAttributes = {
+					CCEA309E1A604E2A00A9E771 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CCEA30B71A604E2A00A9E771 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CCEA309E1A604E2A00A9E771;
+					};
+				};
+			};
+			buildConfigurationList = CCEA309A1A604E2A00A9E771 /* Build configuration list for PBXProject "tonafm-led" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCEA30961A604E2A00A9E771;
+			productRefGroup = CCEA30A01A604E2A00A9E771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCEA309E1A604E2A00A9E771 /* tonafm-led */,
+				CCEA30B71A604E2A00A9E771 /* tonafm-ledTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCEA309D1A604E2A00A9E771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEA30AE1A604E2A00A9E771 /* Main.storyboard in Resources */,
+				CCEA30B31A604E2A00A9E771 /* LaunchScreen.xib in Resources */,
+				CCEA30B01A604E2A00A9E771 /* Images.xcassets in Resources */,
+				CC67B2BD1A61AFAC004B1F7E /* TrackTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEA30B61A604E2A00A9E771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BCC6F96D77D6C5830195EA6C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCEA309B1A604E2A00A9E771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC67B2C31A61DC94004B1F7E /* UtilityAPI.m in Sources */,
+				CCEA30AB1A604E2A00A9E771 /* PlayerViewController.m in Sources */,
+				CCEA30A81A604E2A00A9E771 /* AppDelegate.m in Sources */,
+				CCEA30A51A604E2A00A9E771 /* main.m in Sources */,
+				CC67B2BC1A61AFAC004B1F7E /* TrackTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEA30B41A604E2A00A9E771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEA30BF1A604E2A00A9E771 /* tonafm_ledTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCEA30BA1A604E2A00A9E771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCEA309E1A604E2A00A9E771 /* tonafm-led */;
+			targetProxy = CCEA30B91A604E2A00A9E771 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCEA30AC1A604E2A00A9E771 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCEA30AD1A604E2A00A9E771 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCEA30B11A604E2A00A9E771 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCEA30B21A604E2A00A9E771 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCEA30C01A604E2A00A9E771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCEA30C11A604E2A00A9E771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCEA30C31A604E2A00A9E771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61FEA2B19BD337A74D4B79B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/tonafm-led",
+				);
+				INFOPLIST_FILE = "tonafm-led/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCEA30C41A604E2A00A9E771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BBC1BABF8C0A010323C5D80 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/tonafm-led",
+				);
+				INFOPLIST_FILE = "tonafm-led/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCEA30C61A604E2A00A9E771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "tonafm-ledTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tonafm-led.app/tonafm-led";
+			};
+			name = Debug;
+		};
+		CCEA30C71A604E2A00A9E771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "tonafm-ledTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tonafm-led.app/tonafm-led";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCEA309A1A604E2A00A9E771 /* Build configuration list for PBXProject "tonafm-led" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEA30C01A604E2A00A9E771 /* Debug */,
+				CCEA30C11A604E2A00A9E771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEA30C21A604E2A00A9E771 /* Build configuration list for PBXNativeTarget "tonafm-led" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEA30C31A604E2A00A9E771 /* Debug */,
+				CCEA30C41A604E2A00A9E771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEA30C51A604E2A00A9E771 /* Build configuration list for PBXNativeTarget "tonafm-ledTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEA30C61A604E2A00A9E771 /* Debug */,
+				CCEA30C71A604E2A00A9E771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCEA30971A604E2A00A9E771 /* Project object */;
+}
